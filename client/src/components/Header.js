@@ -14,12 +14,8 @@ export const Header = () => {
         </a>
         <form>
           <div className="custom-control custom-switch">
-            <input
-              type="checkbox"
-              className="custom-control-input"
-              id="switch1"
-            />
-            <label className="custom-control-label" for="switch1">
+            <input type="checkbox" className="custom-control-input" id="them" />
+            <label className="custom-control-label" htmlFor="them">
               Темная тема
             </label>
           </div>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Курсы валют</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top shadow-sm p-3 bg-white">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <div class="d-flex justify-content-between align-items-center">
+          <i class="material-icons bg-primary text-white mr-2 md-36 ">
+            swap_vert
+          </i>
+          <h4>Курсы валют</h4>
+        </div>
+      </a>
+      <form>
+        <div class="custom-control custom-switch">
+          <input type="checkbox" class="custom-control-input " id="switch1">
+          <label class="custom-control-label" for="switch1">Темная тема</label>
+        </div>
+      </form>
+    </div>
+  </nav>
+
+  <div class="container">
+    <h3 class="pb-4 pt-4">Калькулятор иностранных валют</h3>
+    <div class="row">
+      <div class="col-4">
+
+        <div class="card shadow-sm p-3 mb-5 bg-white rounded">
+
+          <div class="card-header bg-white">
+            <h5>Конвертация</h5>
+          </div>
+
+          <div class="card-body">
+
+            <div class="form-group row">
+              <label for="example-number-input" class="col-4 col-form-label">Сумма</label>
+              <div class="col">
+                <input class="form-control" type="number" value="42" id="example-number-input">
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="exampleSelect1" class="col-4 col-form-label">Из</label>
+              <div class="col">
+                <select class="form-control" id="exampleSelect1">
+                  <option>RUB</option>
+                  <option>CNY</option>
+                  <option>PLN</option>
+                  <option>DKK</option>
+                  <option>BYN</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="form-group row">
+              <label for="exampleSelect1" class="col-4 col-form-label">В</label>
+              <div class="col">
+                <select class="form-control" id="exampleSelect1">
+                  <option>RUB</option>
+                  <option>CNY</option>
+                  <option>PLN</option>
+                  <option>DKK</option>
+                  <option>BYN</option>
+                </select>
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="form-group row">
+              <label for="example-datetime-local-input" class="col-4 col-form-label">
+                Дата
+              </label>
+              <div class="col">
+                <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+              </div>
+            </div>
+
+            <hr />
+
+            <div class="d-flex justify-content-end">
+              <button type="button" class="btn btn-primary">Показать</button>
+            </div>
+          </div>
+
+          <div class="card-footer  bg-white">
+            <h5 class="card-title text-center">
+              Вы получите:
+              <strong>
+                1,37 USD
+              </strong>
+            </h5>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="row pb-4">
+          <div class="col">
+
+            <div class="card shadow-sm p-3 mb-3 bg-white rounded">
+              <div class="card-header bg-white">
+                <h5>Доллар США</h5>
+              </div>
+
+              <div class="card-body">
+                <div class="row d-flex mb-2 text-center align-items-center">
+                  <div class="col">
+                    Валюта/RUB
+                  </div>
+                  <div class="col">
+                    Номинал
+                  </div>
+                  <div class="col">
+                    Цена
+                  </div>
+                </div>
+
+                <div class="row  d-flex text-center align-items-center">
+                  <div class="col">
+                    <select class="form-control" id="exampleSelect1">
+                      <option>RUB</option>
+                      <option>CNY</option>
+                      <option>PLN</option>
+                      <option>DKK</option>
+                      <option>BYN</option>
+                    </select>
+                  </div>
+                  <div class="col">
+                    1
+                  </div>
+                  <div class="col">
+                    70
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="card-footer bg-white">
+                Котировки валют с <span>15.07.2020</span>
+              </div>
+            </div>
+
+            <div class="card shadow-sm p-3 mb-3rounded">
+              <div class="card-header bg-white ">
+                <h5>График изменения котировок</h5>
+              </div>
+              <div class="card-body">
+
+                <div class="row">
+                  <div class="col-7">
+                    <div class="form-group row">
+                      <label for="exampleSelect1" class="col-3 col-form-label">Валюта</label>
+                      <div class="col">
+                        <select class="form-control" id="exampleSelect1">
+                          <option>RUB</option>
+                          <option>CNY</option>
+                          <option>PLN</option>
+                          <option>DKK</option>
+                          <option>BYN</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+
+                <div class="row">
+                  <div class="col">
+                    <div class="form-group row">
+                      <label for="example-datetime-local-input" class="col col-form-label">
+                        Период с
+                      </label>
+                      <div class="col-8">
+                        <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="col">
+                    <div class="form-group row">
+                      <label for="example-datetime-local-input" class="col col-form-label">
+                        до
+                      </label>
+                      <div class="col-9">
+                        <input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col">
+                    <div class="d-flex justify-content-end">
+                      <button type="button" class="btn btn-primary">Показать</button>
+                    </div>
+                  </div>
+                </div>
+                <hr />
+
+                <div class="row">
+                  <div class="col">
+                    <img src="graphic.png" width="100%" height="100%" alt="">
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="card-footer text-right bg-white">
+                <a href="#">Таблица изменения котировок</a>
+                <br />
+                <a href="#">Распечатать</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-black">
+    <div class="container">
+
+    </div>
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+    integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

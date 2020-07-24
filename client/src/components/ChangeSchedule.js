@@ -11,7 +11,10 @@ export const ChangeSchedule = () => {
           <div className="row">
             <div className="col-7">
               <div className="form-group row">
-                <label for="exampleSelect1" className="col-3 col-form-label">
+                <label
+                  htmlFor="exampleSelect1"
+                  className="col-3 col-form-label"
+                >
                   Валюта
                 </label>
                 <div className="col">
@@ -32,7 +35,7 @@ export const ChangeSchedule = () => {
             <div className="col">
               <div className="form-group row">
                 <label
-                  for="example-datetime-local-input"
+                  htmlFor="example-datetime-local-input"
                   className="col col-form-label"
                 >
                   Период с
@@ -41,7 +44,7 @@ export const ChangeSchedule = () => {
                   <input
                     className="form-control"
                     type="date"
-                    value="2011-08-19"
+                    defaultValue="2011-08-19"
                     id="example-date-input"
                   />
                 </div>
@@ -51,7 +54,7 @@ export const ChangeSchedule = () => {
             <div className="col">
               <div className="form-group row">
                 <label
-                  for="example-datetime-local-input"
+                  htmlFor="example-datetime-local-input"
                   className="col col-form-label"
                 >
                   до
@@ -60,7 +63,7 @@ export const ChangeSchedule = () => {
                   <input
                     className="form-control"
                     type="date"
-                    value="2011-08-19"
+                    defaultValue="2011-08-19"
                     id="example-date-input"
                   />
                 </div>
@@ -70,7 +73,7 @@ export const ChangeSchedule = () => {
           <div className="row">
             <div className="col">
               <div className="d-flex justify-content-end">
-                <button type="button" class="btn btn-primary">
+                <button type="button" className="btn btn-primary">
                   Показать
                 </button>
               </div>
